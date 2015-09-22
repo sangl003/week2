@@ -21,7 +21,7 @@
 
 	$.getJSON("https://dl.dropboxusercontent.com/u/8550761/wilson-library.geojson",function(data){new L.GeoJSON(data).addTo(map)});
 	
-    $("#redbox").click(function(){alert("Hi!How are you!");});
+    	$(".red-box").click(function(){alert("Hi!How are you!");});
 	
 	function Changemap(){
 		$.getJSON("https://dl.dropboxusercontent.com/u/8550761/wilson-library.geojson",function(data)
